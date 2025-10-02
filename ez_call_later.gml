@@ -6,7 +6,7 @@
  * @param {real} _unit  Unit for timing (seconds or frames).
  * @param {bool} _loop  Whether the callback should repeat.
  */
-ez_call_later = function(_callback, _time_period, _unit=time_source_units_seconds, _loop=false) constructor
+function ez_call_later(_callback, _time_period, _unit=time_source_units_seconds, _loop=false) constructor
 {
     handler = undefined;
     time_period = _time_period;
