@@ -46,7 +46,7 @@ function ez_call_later(_callback, _time_period, _unit=time_source_units_seconds,
     
     /**
      * Sets whether the callback should repeat.
-     * @param {boolean} _repeat - True if repeating, false if one-shot.
+     * @param {bool} _repeat - True if repeating, false if one-shot.
      */
     set_repeat = function(_repeat){
         loop = _repeat;
@@ -54,7 +54,7 @@ function ez_call_later(_callback, _time_period, _unit=time_source_units_seconds,
     
     /**
      * Checks if the timer is currently running.
-     * @returns {boolean} True if running, false otherwise.
+     * @returns {bool} True if running, false otherwise.
      */
     is_running = function(){return _is_running;}
     
